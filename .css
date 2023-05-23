@@ -1,0 +1,95 @@
+/* Reset some default styles */
+
+body, h1, h2, p {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+/* Basic styling for header */
+
+header {
+
+  background-color: #333;
+
+  color: #fff;
+
+  padding: 20px;
+
+  text-align: center;
+
+}
+
+/* Basic styling for main content */
+
+main {
+
+  padding: 20px;
+
+}
+
+/* Styling for sections */
+
+section {
+
+  margin-bottom: 20px;
+
+}
+
+/* Styling for search form */
+
+#search form {
+
+  display: flex;
+
+  justify-content: center;
+
+  margin-bottom: 10px;
+
+}
+
+#search input[type="text"],
+
+#search input[type="date"],
+
+#search select {
+
+  margin-right: 10px;
+
+  padding: 5px;
+
+}
+
+#search button {
+
+  padding: 5px 10px;
+
+}
+
+/* Styling for search results */
+
+#results table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+}
+
+#results th, #results td {
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+}
+
+/* Styling for booking details */
+
+#booking {
+
+  display: none; /* Hide by default until user selects a flight */
+
+}
